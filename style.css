@@ -299,6 +299,13 @@ img{
         margin-left: 97px;
     }
 }
+
+@media screen and (max-width:415px) {
+    .btn__grid{
+        margin-left: 83px;
+    }
+}
+
 @media screen and (max-width:340px) {
     img{
         height: 160px;
