@@ -74,7 +74,6 @@ img{
 }
 
 .text a{
-    display: inline-block;
     color: #fff;
     font-weight: 300;
     text-decoration: none;
@@ -190,7 +189,12 @@ img{
     display: inherit;
     width: 1.3rem;
     height: 1.3rem;
-    position: absolute;
+  }
+  .btn__grid {    
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: 1fr 51px;
+    text-align: right!important;
   }
 
 
@@ -255,6 +259,9 @@ img{
     .text h2{
         font-size: 25px;
     }
+    .btn__grid{
+        margin-left: 35px;
+    }
 }
 @media screen and (max-width:700px) {
     img{
@@ -283,6 +290,9 @@ img{
     .form{
         padding: 3.5em 1em;
     }
+    .btn__grid{
+        margin-left: 97px;
+    }
 }
 @media screen and (max-width:340px) {
     img{
@@ -296,5 +306,9 @@ img{
     }
     .text a{
         width: 120px;
+    }
+    .btn__grid{
+        margin-left: 62px;
+        grid-template-columns: 1fr 34px;
     }
 }
