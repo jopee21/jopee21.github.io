@@ -196,6 +196,11 @@ img{
     grid-template-columns: 1fr 51px;
     text-align: right!important;
   }
+  .nav__grid{
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    text-align: right!important;
+  }
 
 
 @keyframes moveLeft{
